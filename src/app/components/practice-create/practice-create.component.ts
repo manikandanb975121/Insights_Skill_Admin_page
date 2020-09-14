@@ -37,16 +37,16 @@ export class PracticeCreateComponent implements OnInit {
   });
   difficulty = [
     {
-      value: 'High',
-      name: 'High'
+      value: 'Hard',
+      name: 'Hard'
     },
     {
       value: 'Medium',
       name: 'Medium'
     },
     {
-      value: 'Low',
-      name: 'Low'
+      value: 'Easy',
+      name: 'Easy'
     }
   ];
   constructor(
@@ -167,5 +167,9 @@ export class PracticeCreateComponent implements OnInit {
       width: '800px',
       data: this.questions
     });
+  }
+
+  onSubmit() {
+    console.log('submitted');
   }
 }

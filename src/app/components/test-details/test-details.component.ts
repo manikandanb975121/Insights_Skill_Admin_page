@@ -61,4 +61,10 @@ openStudent(templateRef) {
     // this.animal = result;
   });
 }
+viewProfile(id) {
+  console.log(id);
+}
+deleteStudent(id) {
+  console.log(id);
+}
 }

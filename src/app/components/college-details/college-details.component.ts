@@ -89,4 +89,12 @@ export class CollegeDetailsComponent implements OnInit {
   });
     // this.studentService.getStudent(studentId);
   }
+
+  openFav() {
+    console.log('fav questions');
+  }
+
+  editProfile() {
+    console.log('college questions');
+  }
 }
